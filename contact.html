@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <div><a id ="title" href="index.html">Canterbury Event Center</a></div>
+        <nav>
+            <ul id="navbar">
+                <li><a href="events.html">Events</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contactform">
+            <h2 id="h2contact">Contact Us!</h2>
+            <p>Question? Comments? Concerns?</p>
+            <p>Get in touch by submitting our contact form below! We'll get back to you as quickly as we can.</p>
+            
+            <form action="submit.php" method="post">
+                <fieldset>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                </fieldset>
+                    
+                <fieldset id="message">
+                    <label for="message">Comments:</label>
+                    <textarea id="message" name="message" required rows="5" cols="auto"></textarea>
+                </fieldset>
+
+                <fieldset id="buttons">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </fieldset>
+
+            </form>
+
+        </section>
+        
+
+    </main>
+
+
+    <footer>
+        <p id="footer">&copy 2025 Canterbury Event Center<br>Created by Joshua Canterbury, Software Engineer</p>
+    </footer>
+    
+</body>
+</html>
